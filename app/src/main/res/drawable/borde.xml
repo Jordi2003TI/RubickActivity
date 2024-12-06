@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo blanco dentro del cuadrado -->
+    <solid android:color="#FFFFFF"/>
+
+    <!-- Bordes negros -->
+    <stroke
+        android:color="#000000"
+        android:width="1dp" /> <!-- Puedes cambiar el ancho del borde -->
+
+    <!-- Tamaño del cuadrado -->
+    <size
+        android:width="200dp"
+        android:height="200dp" />
+</shape>

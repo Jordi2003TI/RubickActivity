@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosRegistroActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/atras_icono"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queremos conocerte mejor"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:orientation="horizontal">
+
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="23sp"
+               android:layout_marginStart="10dp"
+               android:textStyle="bold"
+               android:text="Edad"/>
+
+           <EditText
+               android:layout_width="300dp"
+               android:hint="Introduce tu edad en numeros"
+               android:layout_height="48dp"
+               android:layout_marginStart="20dp"
+               />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:orientation="horizontal">
+
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="23sp"
+               android:layout_marginStart="10dp"
+               android:textStyle="bold"
+               android:text="Peso"/>
+
+           <EditText
+
+               android:layout_width="90dp"
+               android:hint="Kg"
+               android:layout_height="48dp"
+               android:layout_marginStart="20dp"
+               />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="23sp"
+               android:layout_marginStart="10dp"
+               android:textStyle="bold"
+               android:text="Altura"/>
+
+           <EditText
+               android:layout_width="90dp"
+               android:hint="cm"
+               android:layout_height="48dp"
+               android:layout_marginStart="20dp"
+               />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Indica tu grado de actividad"
+               android:textSize="20sp"
+               android:layout_marginLeft="50dp"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp">
+
+           <View
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/borde" />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:text="Nula, no tengo actividad fisica"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp">
+
+           <View
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/borde" />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:text="Muy poca, baja intensidad 1 a 2 dias"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp">
+
+           <View
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/borde" />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:text="Normal, intensidad moderada 3 dias"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp">
+
+           <View
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/borde" />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:text="Bastante, alta intensidad 5 dias"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp">
+
+           <View
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/borde" />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:text="Mucha, alta intensidad 6 dias"/>
+       </LinearLayout>
+
+
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Guardar"/>
+    </LinearLayout>
+
+</LinearLayout>

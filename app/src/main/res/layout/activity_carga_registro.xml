@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CargaRegistroActivity">
+
+    <TextView
+        android:id="@+id/TextoCarga1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="  Cargando informacion del usuario"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextoCarga2"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="en nuestra base de datos"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"/>
+
+    <ProgressBar
+        android:layout_width="110dp"
+        android:layout_height="129dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+    </ProgressBar>
+
+</LinearLayout>
+

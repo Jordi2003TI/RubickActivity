@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a tu diestista virtual"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El cambio es Hoy"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre y apellidos"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"
+        />
+    <EditText
+        android:id="@+id/nombreApellidoRegistro"
+        android:layout_width="320dp"
+        android:layout_marginStart="40dp"
+        android:hint="Escribe..."
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        />
+    <EditText
+        android:id="@+id/emailRegistro"
+        android:layout_width="320dp"
+        android:layout_marginStart="40dp"
+        android:hint="Escribe..."
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        />
+    <EditText
+        android:id="@+id/contraseñaRegistro"
+        android:layout_width="320dp"
+        android:layout_marginStart="40dp"
+        android:hint="Escribe..."
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar contraseña"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        />
+    <EditText
+        android:id="@+id/confirmarContraseñaRegistro"
+        android:layout_width="320dp"
+        android:layout_marginStart="40dp"
+        android:hint="Escribe..."
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Siguiente"/>
+
+</LinearLayout>

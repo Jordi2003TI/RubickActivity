@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipalActivity">
+    <!--PARA PODER PONER DE MANERA HORIZONTAL ALGUNOS ELEMTOS-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+
+
+        <CalendarView
+            android:id="@+id/calendario"
+            android:layout_width="213dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp" />
+
+        <ImageView
+            android:id="@+id/iconoAjustes"
+            android:layout_width="59dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="90dp"
+            android:contentDescription="Icono de ajustes"
+            android:src="@drawable/baseline_supervised_user_circle_24" />
+        </LinearLayout>
+
+<!--Es para la parte del grafico-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/grafico_circular" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proteinas"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grasas"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carbohidratos"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Proteinas"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/barra"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Proteinas objetivo"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borde" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Grasas objetivo"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borde" />
+
+    <View
+
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000" />
+
+    <View
+
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000" />
+
+    <View
+
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000" />
+
+    <View
+
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000" />
+
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/baseline_travel_explore_24" />
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/casa" />
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/lapizi_icono" />
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/nota_icono" />
+    </LinearLayout>
+</LinearLayout>
