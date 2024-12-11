@@ -34,7 +34,7 @@
         android:layout_width="320dp"
         android:layout_marginStart="10dp"
         android:hint="User"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         />
     <TextView
         android:layout_marginTop="10dp"
@@ -43,13 +43,14 @@
         android:textSize="23sp"
         android:textStyle="bold"
         android:text="contraseña"/>
+
     <EditText
         android:id="@+id/PasswordLogin"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:hint="Contraseña"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         />
 
     <Button
